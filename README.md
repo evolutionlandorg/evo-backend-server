@@ -101,7 +101,7 @@ go run .
 | GIN_MODE                |                                                  | gin running mode                |
 | EVO_ENV                 | production                                       | Environment variable, production means production environment, dev means development environment |
 | WEB_HOST                | https://portal.evolution.land                    | web host                        |
-| APOSTLE_SVG             | http://apostle-svg                               | apostle svg host                |
+| APOSTLE_PICTURE_SERVER             | http://apostle-svg                               | apostle svg host                |
 | HECO_RPC                | https://http-testnet.hecochain.com               | heco rpc host                   |
 | HECO_WSS_RPC            | wss://ws-testnet.hecochain.com                   | eth rpc host                    |
 | POLYGON_RPC             | https://polygon-mumbai.api.onfinality.io/public  | polygon rpc host                |
