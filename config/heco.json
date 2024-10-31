@@ -1,0 +1,357 @@
+{
+  "district": 4,
+  "chainId": 4,
+  "tokenIdPrefix": "2a040001040001010000000000000004",
+  "apostlePrefix": "2a040001040001020000000000000004",
+  "range": [
+    -67,
+    -23,
+    -22,
+    22
+  ],
+  "grLand": "1989,1499,1895,1557,1778,1336,1274,1901,588,1011,475,357,306,792,1253,1252,1858,1191,1677,1700",
+  "dev": {
+    "tokens": {
+      "0xc8F2eC4c01AD7cDF27431983546da0c35E40237c": {
+        "symbol": "RING",
+        "decimals": 18,
+        "address": "0xc8F2eC4c01AD7cDF27431983546da0c35E40237c"
+      }
+    },
+    "contracts": {
+      "objectOwnership": "0x8303fa5849d4E7B84A44083BD993733c31f63B3B",
+      "tokenLocation": "0x60F97cb33747A3AbAc2B1FC383188db10AcEA92C",
+      "tokenUse": "0xC5eb6110a1C7E04eDD30EC45111aC588f3C6ab20",
+      "userPoints": "0x047A7E5658575dC5DACC6e46434a2360BdDb78B6",
+      "gold": "0x46D4e1a0eb97f7C8493644f2D7cDbB548b95Bc83",
+      "wood": "0x217cA4d5a944636030Bc2fdFF637011f09b29705",
+      "water": "0x6C495186E6cf9E41d22DF3004c1E3063D988c5D0",
+      "fire": "0xf787Da51916BcD1da0F5E4723D4102FD6A8a7A69",
+      "soil": "0x78B89ca151697aB8fA002dF88e0432d292472e55",
+      "ring": "0xc8F2eC4c01AD7cDF27431983546da0c35E40237c",
+      "kton": "0x9B742ceE92E8A127fcB875c477E79D310ddf2EC3",
+      "land": "0x52604b09fab597Ff3287C04429B6c6b4bc135c2f",
+      "landResource": "0xDf7d26FD7Fdf3EF33F4D357aEF021FCfC2d44737",
+      "apostle": "0x517d5344dc5003A36D83684480b15fA268026277",
+      "clockAuctionApostle": "0xf77fA262f358c38563eF3230C311B6652C92a192",
+      "Gen0": "0x1B6b637E00f0Edf77113C527d4Bb837Ed5cCcf43",
+      "apostleFertility": "0x1C59013AC7dC45B0a9A1428ED618a2a71d73E18e",
+      "takeBack": "0x5E8C535BD5b17936aCD39C34f867138fc935f8d8",
+      "clockAuction": "0x98C3033041577ddd2510050223d2c918e6a66719",
+      "genesisHolder": "0xE6FCe87bf75577759B2D075fD3d19e455df37956",
+      "pointsReward": "0xa502ABf2B637415992d125e53e389199546f99C0",
+      "drillBase": "0x05bBa1a137C4B82EdB94fa022D46eDf60663Ae1f",
+      "formula": "0x8D9FFFb0eB4663cb20f45b488C073CC05768ed7d",
+      "itemBase": "0x96AAcc7e2dFAebD7D1153A0B7C7e4D6a55f7025B",
+      "metaDataTeller": "0x7999287671B0D922Ba929Cc6a9544A604A5366B2",
+      "drillTakeBack": "0xAb43805C2335055dA0171D06C821cf8A39FFfbcf",
+      "drillLuckyBox": "0xbdD1d5b058890123905dcea0a5bb5351Ef897e2A",
+      "lpGold": "0xaa3616Cf90B82fAA88a3a0e5a705a96a6ea75030",
+      "lpWood": "0x786754872d4D994B8975f4012f47b4C5551544F3",
+      "lpWater": "0x6836123396Eef3bdC83bb8297eBF8396e2F9001d",
+      "lpFire": "0x04571F18BB7F0Bd7754EDC4Aab8D6671A05A22Fe",
+      "lpSoil": "0x712c0C2d01295EA53B84D89F112E24bfEd4D307F",
+      "lpWETH": "0x0e149833dd115F8637ec85D51033f77fB7603DF3",
+      "lpDUSD": "0x8d9C7F55dB6f9BCc49559dF9608503E017303279",
+      "lpGoldPool": "0x4d2D5C536A552fe36D675F75f74D9e7010623d63",
+      "lpWoodPool": "0x3642938f049666f40183c9AEeC890C0Ec3E526bc",
+      "lpWaterPool": "0x8CA395Eca0F4a3B0Ad5521dFF99B648FEc4c42eF",
+      "lpFirePool": "0x7E6A215305194364c777B15faB132d72b8a68CCf",
+      "lpSoilPool": "0x0f49682fecfdb3240a1DcaC9d49243fdDbA49FDD",
+      "ethPool": "0xB3673A717FC3aFB68379D05aA899BBF6c89a13aA",
+      "lpDUSDPool": "0x76b953B76007634BB4953b518bA428266b32f1Ce",
+      "raffle": "0x229768860d74f6F3A6B7e1576DF86E99e4Fa2140",
+      "PveTeam": "0x02d95D51B59bDDF0d93AD0acCCB7c7044D3E6561",
+      "material": "0x89a206Fa75F42AFb968b43193C086f1970c7155b",
+      "materialTakeBack": "0x59D98DaA5316993ED909F9E0572C077f2c407835",
+      "CraftBase": "0x7D53435f78896D273A44d942226DD7947075720d",
+      "Snapshot": "0xBCF8C411b37937a0F0570ef3388174D0bd3bE54F",
+      "GoldRaffle": "0xd2C21514c98BDa0090f5b595463804FE35Ca4C0B",
+      "WoodRaffle": "0x99E37f6711FE193a7e6595B4281046689c671276",
+      "WaterRaffle": "0x6895918B1a8635a9C1792c554a70a9EAD8c0BD38",
+      "FireRaffle": "0x98C9707B0FcA60F2E6d69054d28cfa08463f1268",
+      "SoilRaffle": "0x0B7b126Cb8365A8887B4b910B7016D2dd379a8c1"
+    },
+    "networkId": "256",
+    "rpc": "",
+    "graphUrl": "",
+    "wipeBlock": {
+      "initBlock": 3434593,
+      "cacheKey": "heco:wipeBlock",
+      "blockDelay": 3,
+      "blockTime": 6
+    }
+  },
+  "production": {
+    "tokens": {
+      "0x15e65456310ecb216B51EfBd8a1dBf753353DcF9": {
+        "symbol": "RING",
+        "decimals": 18,
+        "address": "0x15e65456310ecb216B51EfBd8a1dBf753353DcF9"
+      }
+    },
+    "contracts": {
+      "objectOwnership": "0xf233bBD8F73fca654a84aEe1462F0c54b7fFE2bD",
+      "tokenLocation": "0x9e3402e96120F129218B5511AC412c33361b7480",
+      "tokenUse": "0x1B818FA80bBBaCD63a04c91a09dfeb7aA353b145",
+      "userPoints": "0xdaE9d5E41119EacEba2a12B1bE5825e2D39DaC3d",
+      "gold": "0xFB371c8B99ba0b239E66E0a66bB6296b00dCD09f",
+      "wood": "0xcA3749C8C3aF04278D596a3fBe461481B6aa1b01",
+      "water": "0x56746a8099a7e6D962802A23e01FeDdc1282cDAe",
+      "fire": "0xe97C7F83ec91E29569f1a08De95ad3Bb0e8B6B3A",
+      "soil": "0x81989cD57271565DBFfe9807E917Afc098B30c9A",
+      "ring": "0x15e65456310ecb216B51EfBd8a1dBf753353DcF9",
+      "kton": "0x9B742ceE92E8A127fcB875c477E79D310ddf2EC3",
+      "land": "0x60b0646956C05DCaFd6Af63BB2e0ce6C4d241926",
+      "landResource": "0x34Ab84986f0a676A622a15eEdFBe8d344AE66A89",
+      "apostle": "0xe8f06b4193cE6E32208Cf209e7B45b717FF3980a",
+      "clockAuctionApostle": "0x4F1c93C5698cc0B2F506A449336CA44B0E111919",
+      "Gen0": "0xd96502a76c042AF824D5461F9E48D1FD88e27973",
+      "apostleFertility": "0xcC0dF56e56a4c01BCE8E2A3Ae5B8065C5eA53b2f",
+      "takeBack": "0x41Ec074E52f7B8aF9ffC9D9894073a6eD62537fe",
+      "clockAuction": "0xFdBEad883e975d92FbA03919a69b9A3A7EB9115B",
+      "genesisHolder": "0x80a8F15a0A5bd734b8e71530ea8C377dd7AD8005",
+      "pointsReward": "0xB74B584f9Eb39A14C5482D55bCf87A2165D09FcD",
+      "drillBase": "0xEd969c03e8881371754231FE1C8f1D4fE4AF2082",
+      "formula": "0xBdF45a8222393A58c36de3bA25FB41b7d6B12084",
+      "itemBase": "0xc5f01D664B192FC7Fc0f2e166cf182FdaD315C0f",
+      "metaDataTeller": "0xe8a4038eee6e2f8B8aCf84D5657f2490696E9101",
+      "drillTakeBack": "0xd7b08EE01Ad1b6DB5a0d2f106CefB2E6b11c0082",
+      "drillLuckyBox": "0xE4d2a04714Dd4F5ac0ce7DbBF03D4c944bbac486",
+      "lpGold": "0x8C318CD47D8DD944d969307B1249062197267564",
+      "lpWood": "0x2Fbe5228a08260DB7bFed841cd4b340C88E13b9A",
+      "lpWater": "0xc8f8ba346781447a3e060eE913f56C2323fa83E5",
+      "lpFire": "0xDD6F102f7044f5a8635AA9DaAC1483C5ce5265A3",
+      "lpSoil": "0x31BF5eaA7C761871c83d9748b00a2277657cD6f5",
+      "lpWETH": "0x55C643AcA8b4cBaB1dBA05393fc0687bFbb9A98d",
+      "lpGoldPool": "0x2d0BB7D189CeE45a177C1657AB110fbaEfe46121",
+      "lpWoodPool": "0xEeA38B272C11E8ACC570Aa4EAEB9A7F6299818F9",
+      "lpWaterPool": "0xb3b348e98056cBE55b76356Be616B171d518a2d3",
+      "lpFirePool": "0x7E2B264FA1648E051b88B33fEdA5EefB6d3Ea0fe",
+      "lpSoilPool": "0x4f2DBa0f8A87fD402d1fff9A1ecFBfdfD9ec6985",
+      "ethPool": "0xFb3B0E19D9193D96Be3B5A78744fa81F67c354bf",
+      "lpDUSDPool": "0xF4e650E88d595bB6d88C7eDb9fEF16d8c6157Cf4",
+      "XNFT": "0x1ccc54b5f38a758a1c922c3dbe374e2f41c45409",
+      "raffle": "0x6f75Dcd61579d9363799d282D6DD1f202295Ae84",
+      "PveTeam": "0x66B3f77Ba05e795A8Fd5ab60799d598312148e67",
+      "material": "0x24Fa741f4A8f2D5B460De2bDc5AE0041C87F3331",
+      "materialTakeBack": "0xA33a1308Ac1c7a7683C01a8036a1D722C441cD62",
+      "CraftBase": "0x150e06306583e0FD7EA3f2049bD72192380D13C9",
+      "Snapshot": "0x23E0A31587DbED7e409CFb4bd744675Ff43Ee602",
+      "GoldRaffle": "0x3b08D68BF03D78257DF84bEcC3328C44E30F9352",
+      "WoodRaffle": "0x1DebB82883440E961A5ed453100bF903e20A3ac6",
+      "WaterRaffle": "0x408316B7A2dDc6a1e12f312A044252Bbb2366Be7",
+      "FireRaffle": "0xfAbBeE6404cd6C42492ae03bcEdf0FDc5dff0783",
+      "SoilRaffle": "0x4E5b1975785761a2262B4665ce4406bb3996cc31"
+    },
+    "networkId": "128",
+    "rpc": "",
+    "graphUrl": "",
+    "wipeBlock": {
+      "initBlock": 5297000,
+      "cacheKey": "heco:wipeBlock",
+      "blockDelay": 3,
+      "blockTime": 6
+    }
+  },
+  "formula": [
+    {
+      "id": 255,
+      "index": -1,
+      "name": "Stone Drill",
+      "class": 0,
+      "grade": 0,
+      "pic": "class0/lv0.png",
+      "disable": false,
+      "can_disenchant": false,
+      "major_id": 0,
+      "minor": {},
+      "sort": 0,
+      "productivity": [
+        1,
+        1
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 1,
+      "index": -1,
+      "name": "Iron Drill",
+      "class": 0,
+      "grade": 1,
+      "pic": "class0/lv1.png",
+      "disable": false,
+      "can_disenchant": false,
+      "major_id": 0,
+      "minor": {},
+      "sort": 1,
+      "productivity": [
+        1,
+        1
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 2,
+      "index": -1,
+      "name": "Steel Drill",
+      "class": 0,
+      "grade": 2,
+      "pic": "class0/lv2.png",
+      "disable": false,
+      "can_disenchant": false,
+      "major_id": 0,
+      "minor": {},
+      "sort": 2,
+      "productivity": [
+        5,
+        5
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 3,
+      "index": -1,
+      "name": "Diamond Drill",
+      "class": 0,
+      "grade": 3,
+      "pic": "class0/lv3.png",
+      "disable": false,
+      "can_disenchant": false,
+      "major_id": 0,
+      "minor": {},
+      "sort": 3,
+      "productivity": [
+        12,
+        12
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 5,
+      "index": 0,
+      "name": "Manual Iron Rig",
+      "class": 1,
+      "grade": 1,
+      "pic": "class1/lv1.png",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 1,
+      "minor": {
+        "element": 500,
+        "LP": 0
+      },
+      "sort": 4,
+      "productivity": [
+        5,
+        2.5
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 6,
+      "index": 1,
+      "name": "Manual Steel Rig",
+      "class": 1,
+      "grade": 2,
+      "pic": "class1/lv2.png",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 2,
+      "minor": {
+        "element": 500,
+        "LP": 0
+      },
+      "sort": 5,
+      "productivity": [
+        12,
+        6
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 7,
+      "index": 2,
+      "name": "Manual Diamond Rig",
+      "class": 1,
+      "grade": 3,
+      "pic": "class1/lv3.png",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 3,
+      "minor": {
+        "element": 500,
+        "LP": 0
+      },
+      "sort": 6,
+      "productivity": [
+        25,
+        12.5
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 9,
+      "index": 3,
+      "name": "Gas Iron Rig",
+      "class": 2,
+      "grade": 1,
+      "pic": "class2/lv1.png",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 5,
+      "minor": {
+        "element": 0,
+        "LP": 450
+      },
+      "sort": 7,
+      "productivity": [
+        28,
+        14
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 10,
+      "index": 4,
+      "name": "Gas Steel Rig",
+      "class": 2,
+      "grade": 2,
+      "pic": "class2/lv2.png",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 6,
+      "minor": {
+        "element": 0,
+        "LP": 450
+      },
+      "sort": 8,
+      "productivity": [
+        68,
+        34
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 11,
+      "index": 5,
+      "name": "Gas Diamond Rig",
+      "class": 2,
+      "grade": 3,
+      "pic": "class2/lv3.png",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 7,
+      "minor": {
+        "element": 0,
+        "LP": 450
+      },
+      "sort": 9,
+      "productivity": [
+        120,
+        60
+      ],
+      "objectClassExt": 4
+    }
+  ]
+}

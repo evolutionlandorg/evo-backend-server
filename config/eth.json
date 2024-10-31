@@ -1,0 +1,413 @@
+{
+  "district": 1,
+  "chainId": 1,
+  "tokenIdPrefix": "2a010001010001010000000000000001",
+  "apostlePrefix": "2a010001010001020000000000000001",
+  "range": [
+    -122,
+    -68,
+    -22,
+    22
+  ],
+  "dev": {
+    "tokens": {
+      "0xb52FBE2B925ab79a821b261C82c5Ba0814AAA5e0": {
+        "symbol": "RING",
+        "decimals": 18,
+        "address": "0xb52FBE2B925ab79a821b261C82c5Ba0814AAA5e0"
+      }
+    },
+    "contracts": {
+      "ring": "0xb52FBE2B925ab79a821b261C82c5Ba0814AAA5e0",
+      "kton": "0x1994100c58753793D52c6f457f189aa3ce9cEe94",
+      "takeBack": "0x115493f616F3D213913F843fB5594C4d004b4782",
+      "clockAuction": "0x9a6144237be8B5a6dc793E8848B6AeFc99bd2256",
+      "land": "0x33c7A4C0454618c4AD43330C056eEC231c00d366",
+      "objectOwnership": "0x5eA9ea8E80230E514b5e023e8d956550a22D02c6",
+      "tokenLocation": "0x1401D8565D4999f6bf4e4CA87F229de4760712C4",
+      "genesisHolder": "0xfE3EE13c28830F7F91Bbb62305D3B616e49998EC",
+      "pointsReward": "0xc7eFAaa1b57EB6d5A1855dAf1a37f27cBEa5b5A5",
+      "userPoints": "0x42a1D26d764a4ec858aB9e955B70e55FE409C749",
+      "bank": "0x6EF538314829EfA8386Fc43386cB13B4e0A67D1e",
+      "dividendPool": "0xc951782A4eeA0ACc32d71C753016736C893DFd80",
+      "frozenDividend": "0x38F7632c4533357e2590CCbb4234BB14aB165014",
+      "rolesUpdater": "0xdB131373218b9E3bAAAC807C540F4EAeEb2274b3",
+      "userRoles": "0x6E55e1F3b0B3937C07B7dDde7Db50E8A7A047a6F",
+      "redPacket": "0x4088Db66B8acAA673333b2Ef32648137A95c4476",
+      "Gen0": "0x0881019e11cfd7c2fd5c713E6d4693Aa7AB97A86",
+      "apostle": "0x2E1dd56F118505a9D420Bf50D3bbAd80B3Aa2Ef3",
+      "clockAuctionApostle": "0xE862c7551b4361ee7DA08806affdB09850E8A284",
+      "apostleFertility": "0xfBe870C1084E6e5AE51b89765F70f1673bb9F6Ab",
+      "tokenUse": "0xfD9512e7c8d5D481661032768bBBdEA683D78865",
+      "landResource": "0xD22065369994568096FB841e024462F4d7F5f2f9",
+      "gold": "0xB6A07A36FA73758Ce9D58a2C6a8Da74CECCa438d",
+      "wood": "0xda4d84c604977220D58ade0CF0D915b1a4099E35",
+      "water": "0x40766Ce658Ae73E29242A3EDd75cF83F84c7120e",
+      "fire": "0xC5C0f115C05dd10625A5d4d0fAf284100AD56E68",
+      "soil": "0x5102d99fa797a12f611744cDAE69FF7A5F34b38D",
+      "lpGold": "0x7f34ee2a450fc0838955da3f278262da0dea0c67",
+      "lpWood": "0x92F325f5948f77360c03c35f1CD9A2615cEa9e20",
+      "lpWater": "0x36F068bB8bbFc8A6CdCef3483F2165b32b321F02",
+      "lpFire": "0x379c107511514B8D50Aa60e545bB957e632cC069",
+      "lpSoil": "0x9B42F1f168C403c1260C0f6882afD3F858E3bCCD",
+      "lpGoldPool": "0x6ED01c176a04ce74a56e47d726bfe45cde8a79C7",
+      "lpWoodPool": "0xc357DAADA2dF04A028B3f57a399689C0e88236B6",
+      "lpWaterPool": "0x7e7a79B5b66236d3B5541c4B01E9913c30157E18",
+      "lpFirePool": "0x1D8a8535c4b9944DF5800827C49D7201E5B57c0f",
+      "lpSoilPool": "0xb36F327802d17151F526357a69dBc955fb9083A1",
+      "takeBackNFT": "",
+      "tokenSwap": "0xD42AA035Ea64feBAE5d2b3fd08Dc7bD89874C6dc",
+      "cryptoKitties": "0x0E2c3e835093d73CC8dBC62FBb7C138A44c9af56",
+      "nftBridge": "0xFBCf09250Ca11B2142D40Fa39521b334C1d7Cb17",
+      "petBase": "0x100CFd21Fa502c706Ca33fCB544b626B20300b8E",
+      "apostleArena": "",
+      "tokenBurnDrop": "0xdBC888D701167Cbfb86486C516AafBeFC3A4de6e",
+      "luckyBag": "0x87a1f4d7f8dABa01315bcFE0873cE250b0cF47fB",
+      "takeBackKton": "0xb12C4fdDb1f4fC9C4C6592DbC705AC16509a70D5",
+      "drillLuckyBox": "0xF72361096f11d7E4e45046d7a83726b1A9107D5E",
+      "drillTakeBack": "0xA10D0C6e04845A5e998d1936249A30563c553417",
+      "drillBase": "0x765590F6003398588858911DfEecC622BA69cFFe",
+      "formula": "0x1c9B6cBaE6F6bA297A72d4680Dd099B1ea4a7874",
+      "itemBase": "0x1e257d7AE1Cf0da031480C5fE75478eB2d638540",
+      "metaDataTeller": "0x9bf7c6c4AB4Eb617d769560627198D58A3e1605e",
+      "dego": "0x956b94bEbeCa5736236463b131095f8005661B1f",
+      "polkaPet": "0x3aA012406c56efe330a04F241Fc6477a87C65dc2",
+      "raffle": "0x5e6E812d9A7D35C344C7725835D85c8F977157B7",
+      "lootBox": "0xf3500c505e7e581e932bffc59d6b92bc826225a4",
+      "Snapshot": ""
+    },
+    "networkId": "3",
+    "rpc": "",
+    "graphUrl": "https://api.thegraph.com/subgraphs/name/freehere107/alphaevo",
+    "wipeBlock": {
+      "initBlock": 9091075,
+      "cacheKey": "evo_block_number:evo",
+      "blockDelay": 1,
+      "blockTime": 15
+    }
+  },
+  "production": {
+    "tokens": {
+      "0x9469d013805bffb7d3debe5e7839237e535ec483": {
+        "symbol": "RING",
+        "decimals": 18,
+        "address": "0x9469d013805bffb7d3debe5e7839237e535ec483"
+      }
+    },
+    "contracts": {
+      "ring": "0x9469d013805bffb7d3debe5e7839237e535ec483",
+      "kton": "0x9f284e1337a815fe77d2ff4ae46544645b20c5ff",
+      "takeBack": "0xf45e406067798d2df7913704edcc2ac8d07f3d9e",
+      "clockAuction": "0xf4f5da5d5141f73998bb9c2ef548bf47104e9d8f",
+      "land": "0xd25ba3ee5f67b6b61620406646e709720015550b",
+      "objectOwnership": "0x14a4123da9ad21b2215dc0ab6984ec1e89842c6d",
+      "tokenLocation": "0x5520ec6a7e33ea5d4b6bef89ce6e637d62d301a6",
+      "genesisHolder": "0x36f061bc3314793c5637fb79421294c061ead108",
+      "pointsReward": "0xa4db07460c7473ef3aaf2c26da46b00a4d986d72",
+      "userPoints": "0x335e07b1465d1158b8300c675ee8903c65981266",
+      "bank": "0x649fdf6ee483a96e020b889571e93700fbd82d88",
+      "dividendPool": "0x404a995c4ba79ebaac76da27b3421e1a1efb12ae",
+      "frozenDividend": "0xca2308a86ed57d18856c05be9f4ddf7454933ccc",
+      "rolesUpdater": "0xab5e712d3f90d68b2356b613a7af6012bbd301ca",
+      "userRoles": "0x3d5b127eb5295ee3ae376d5c5870ade3226ca993",
+      "redPacket": "0xb5e00e37ded86ec82992dd1c842d5e23aeee2329",
+      "Gen0": "0xf44c58e703070d4ce7b2440533f29f62713ee071",
+      "apostle": "0x7469966be391e8fe5e85ab972819560c7c3d6e4c",
+      "clockAuctionApostle": "0xa665271c365f9d9a149866574a5b047dd9e3d31b",
+      "apostleFertility": "0xe0a0489d93aeb831a04e8b631ebd9827a4db4a58",
+      "tokenUse": "0xa70abeaca1d6bba0f511758a0d66b7f59fd3f166",
+      "landResource": "0xa9203f3303126243c8d181006ab03b2474e3c084",
+      "gold": "0x358dba28848cca268ba8a76b65e5b3ef9ef92238",
+      "wood": "0xd4b784ae5c12153d11ca55853d832d2a2d514a08",
+      "water": "0x19e22a73a046f19ecb51a46ace4ca7a4bb7c20c6",
+      "fire": "0x8469a695d70033ecd170c82be1253842162aa77e",
+      "soil": "0x1320994fa466e19f17b143995999c7275eae50e1",
+      "takeBackNFT": "0x2f67ee58945a3d13801e6f016aa84abdce6d72a7",
+      "tokenSwap": "0xab1Cb6a9467b77B9451c1c61140FB34494baFFDD",
+      "cryptoKitties": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+      "nftBridge": "0xc28d31eacec212e2f0606f718bfe936a29b98d1c",
+      "petBase": "0xb0c85c099094e73ffc1df23c8309a8b14c64420a",
+      "takeBackKton": "0xE073698faEDB15ef7c64131e51704d52C9A9f55F",
+      "drillLuckyBox": "0xc7D7E731d6bf9182701096adCd5bba3bb0CF76fc",
+      "drillTakeBack": "0x8d7af9d2310016712b8f269df266f957cb12a27b",
+      "drillBase": "0x5731a6ae4ae4dc582f2e692f1a2c963c6e01c585",
+      "formula": "0xbe0e1FfeCf8621191096F76d12439595234f8B38",
+      "itemBase": "0xfd9C2B86f71C1484Bc51F97Bd9E323cB2Cd475C9",
+      "metaDataTeller": "0x86c85A9bf5DEAfdeD40D9C70517883D95F50Df03",
+      "dego": "0x27b4bc90fbe56f02ef50f2e2f79d7813aa8941a7",
+      "polkaPet": "0x8cb813bf27dc744fc5fb6ba7515504de45d39e08",
+      "raffle": "0x56746a8099a7e6D962802A23e01FeDdc1282cDAe",
+      "lootBox": "0x34Ab84986f0a676A622a15eEdFBe8d344AE66A89",
+      "Snapshot": "0x67e79e2603C1E2dd6576ACd2899677Ed9918c0cC"
+    },
+    "networkId": "1",
+    "rpc": "",
+    "graphUrl": "https://api.thegraph.com/subgraphs/name/evolutionlandorg/evolutionland",
+    "wipeBlock": {
+      "initBlock": 9091075,
+      "cacheKey": "evo_block_number:evo",
+      "blockDelay": 1,
+      "blockTime": 15
+    }
+  },
+  "formula": [
+    {
+      "id": 256,
+      "index": -2,
+      "name": "GEGO",
+      "class": 0,
+      "grade": 1,
+      "pic": "class0/lv1_gego.jpg",
+      "disable": false,
+      "can_disenchant": false,
+      "major_id": 0,
+      "minor": {},
+      "sort": 999,
+      "productivity": [
+        1,
+        1
+      ],
+      "objectClassExt": 256
+    },
+    {
+      "id": 255,
+      "index": -1,
+      "name": "Stone Drill",
+      "class": 0,
+      "grade": 0,
+      "pic": "class0/lv0.png",
+      "disable": false,
+      "can_disenchant": false,
+      "major_id": 0,
+      "minor": {},
+      "sort": 0,
+      "productivity": [
+        1,
+        1
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 1,
+      "index": -1,
+      "name": "Iron Drill",
+      "class": 0,
+      "grade": 1,
+      "pic": "class0/lv1.png",
+      "disable": false,
+      "can_disenchant": false,
+      "major_id": 0,
+      "minor": {},
+      "sort": 1,
+      "productivity": [
+        1,
+        1
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 2,
+      "index": -1,
+      "name": "Steel Drill",
+      "class": 0,
+      "grade": 2,
+      "pic": "class0/lv2.png",
+      "disable": false,
+      "can_disenchant": false,
+      "major_id": 0,
+      "minor": {},
+      "sort": 2,
+      "productivity": [
+        5,
+        5
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 3,
+      "index": -1,
+      "name": "Diamond Drill",
+      "class": 0,
+      "grade": 3,
+      "pic": "class0/lv3.png",
+      "disable": false,
+      "can_disenchant": false,
+      "major_id": 0,
+      "minor": {},
+      "sort": 3,
+      "productivity": [
+        12,
+        12
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 4,
+      "index": 0,
+      "name": "Alloy GEGO",
+      "class": 1,
+      "grade": 1,
+      "pic": "class1/lv1_gego.jpg",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 256,
+      "minor": {
+        "element": 500,
+        "LP": 0
+      },
+      "sort": 998,
+      "productivity": [
+        5,
+        2.5
+      ],
+      "objectClassExt": 256
+    },
+    {
+      "id": 5,
+      "index": 1,
+      "name": "Manual Iron Rig",
+      "class": 1,
+      "grade": 1,
+      "pic": "class1/lv1.png",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 1,
+      "minor": {
+        "element": 500,
+        "LP": 0
+      },
+      "sort": 4,
+      "productivity": [
+        5,
+        2.5
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 6,
+      "index": 2,
+      "name": "Manual Steel Rig",
+      "class": 1,
+      "grade": 2,
+      "pic": "class1/lv2.png",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 2,
+      "minor": {
+        "element": 500,
+        "LP": 0
+      },
+      "sort": 5,
+      "productivity": [
+        12,
+        6
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 7,
+      "index": 3,
+      "name": "Manual Diamond Rig",
+      "class": 1,
+      "grade": 3,
+      "pic": "class1/lv3.png",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 3,
+      "minor": {
+        "element": 500,
+        "LP": 0
+      },
+      "sort": 6,
+      "productivity": [
+        25,
+        12.5
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 8,
+      "index": 4,
+      "name": "Senior Alloy GEGO",
+      "class": 2,
+      "grade": 1,
+      "pic": "class2/lv1_gego.jpg",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 4,
+      "minor": {
+        "element": 0,
+        "LP": 450
+      },
+      "sort": 997,
+      "productivity": [
+        28,
+        14
+      ],
+      "objectClassExt": 256
+    },
+    {
+      "id": 9,
+      "index": 5,
+      "name": "Gas Iron Rig",
+      "class": 2,
+      "grade": 1,
+      "pic": "class2/lv1.png",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 5,
+      "minor": {
+        "element": 0,
+        "LP": 450
+      },
+      "sort": 7,
+      "productivity": [
+        28,
+        14
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 10,
+      "index": 6,
+      "name": "Gas Steel Rig",
+      "class": 2,
+      "grade": 2,
+      "pic": "class2/lv2.png",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 6,
+      "minor": {
+        "element": 0,
+        "LP": 450
+      },
+      "sort": 8,
+      "productivity": [
+        68,
+        34
+      ],
+      "objectClassExt": 4
+    },
+    {
+      "id": 11,
+      "index": 7,
+      "name": "Gas Diamond Rig",
+      "class": 2,
+      "grade": 3,
+      "pic": "class2/lv3.png",
+      "disable": false,
+      "can_disenchant": true,
+      "major_id": 7,
+      "minor": {
+        "element": 0,
+        "LP": 450
+      },
+      "sort": 9,
+      "productivity": [
+        120,
+        60
+      ],
+      "objectClassExt": 4
+    }
+  ]
+}

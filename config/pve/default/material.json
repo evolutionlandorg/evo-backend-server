@@ -1,0 +1,38 @@
+{
+  "MB-1": {
+    "id": 1,
+    "name": "Junior Monster Bone",
+    "desc": "The bone of monster could be used to forge equipment",
+    "rarity": "Normal"
+  },
+  "MB-2": {
+    "id": 2,
+    "name": "Intermediate Monster Bone",
+    "desc": "The bone of monster could be used to forge equipment",
+    "rarity": "Normal"
+  },
+  "MB-3": {
+    "id": 3,
+    "name": "Senior Monster Bone",
+    "desc": "The bone of monster could be used to forge equipment",
+    "rarity": "Normal"
+  },
+  "MS-1": {
+    "id": 4,
+    "name": "Junior Monster Spirit",
+    "desc": "The spirit of monster could be used to forge equipment",
+    "rarity": "Rare"
+  },
+  "MS-2": {
+    "id": 5,
+    "name": "Intermediate Monster Spirit",
+    "desc": "The spirit of monster could be used to forge equipment",
+    "rarity": "Rare"
+  },
+  "MS-3": {
+    "id": 6,
+    "name": "Senior Monster Spirit",
+    "desc": "The spirit of monster could be used to forge equipment",
+    "rarity": "Rare"
+  }
+}

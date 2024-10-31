@@ -1,0 +1,1067 @@
+basePath: /api
+definitions:
+  models.ApostleJson:
+    properties:
+      apostle_picture:
+        type: string
+      apostle_status:
+        type: string
+      apostle_talent:
+        $ref: '#/definitions/models.ApostleTalentJson'
+      bind_pet_count:
+        type: integer
+      birth_fee:
+        type: number
+      birth_time:
+        type: integer
+      cold_down:
+        type: integer
+      cold_down_end:
+        type: integer
+      created_at:
+        type: string
+      current_price:
+        type: number
+      duration:
+        type: integer
+      equipments:
+        items:
+          $ref: '#/definitions/models.Equipment'
+        type: array
+      gen:
+        type: integer
+      gender:
+        type: string
+      genes:
+        type: string
+      haberger_mode:
+        type: integer
+      has_bid:
+        type: boolean
+      id:
+        type: integer
+      in_adventure:
+        type: boolean
+      introduction:
+        type: string
+      is_alien:
+        type: boolean
+      member_id:
+        type: integer
+      mine_last_bid:
+        type: boolean
+      mother:
+        type: string
+      name:
+        type: string
+      occupational:
+        type: string
+      origin_id:
+        type: integer
+      origin_owner:
+        type: string
+      origin_owner_name:
+        type: string
+      owner:
+        type: string
+      owner_name:
+        type: string
+      pets:
+        $ref: '#/definitions/models.ApostlePetJson'
+      system_sell:
+        type: boolean
+      token:
+        $ref: '#/definitions/util.Token'
+      token_id:
+        type: string
+      token_index:
+        type: integer
+      worker_end:
+        type: integer
+      working_status:
+        type: string
+    type: object
+  models.ApostleMiner:
+    properties:
+      apostle_id:
+        description: models.Apostle.ID
+        type: integer
+      apostle_name:
+        type: string
+      apostle_picture:
+        type: string
+      cold_down:
+        type: integer
+      dig_element:
+        type: string
+      gen:
+        type: integer
+      owner:
+        type: string
+      owner_name:
+        type: string
+      pets:
+        $ref: '#/definitions/models.ApostlePetJson'
+      strength:
+        type: number
+      talent:
+        $ref: '#/definitions/models.ApostleTalentJson'
+      token_id:
+        description: models.Apostle.TokenId
+        type: string
+      token_index:
+        type: integer
+    type: object
+  models.ApostlePetJson:
+    properties:
+      apostle_id:
+        type: integer
+      apostle_token_id:
+        type: string
+      image_url:
+        type: string
+      mirror_token_id:
+        type: string
+      name:
+        type: string
+      pet_type:
+        type: string
+      token_id:
+        type: string
+    type: object
+  models.ApostleSample:
+    properties:
+      apostle_picture:
+        type: string
+      apostle_token_id:
+        type: string
+      name:
+        type: string
+      slot:
+        type: integer
+    type: object
+  models.ApostleTalentJson:
+    properties:
+      agile:
+        type: integer
+      agile_add:
+        type: integer
+      atk:
+        description: pve value
+        type: number
+      charm:
+        type: integer
+      charm_add:
+        type: integer
+      crit:
+        type: number
+      def:
+        type: number
+      element_fire:
+        type: integer
+      element_gold:
+        type: integer
+      element_soil:
+        type: integer
+      element_water:
+        type: integer
+      element_wood:
+        type: integer
+      expansion:
+        type: integer
+      finesse:
+        type: integer
+      finesse_add:
+        type: integer
+      hp:
+        type: integer
+      hp_add:
+        type: integer
+      hp_limit:
+        type: number
+      intellect:
+        type: integer
+      intellect_add:
+        type: integer
+      life:
+        type: integer
+      life_add:
+        type: integer
+      lucky:
+        type: integer
+      lucky_add:
+        type: integer
+      mining_power:
+        description: 挖矿力
+        type: number
+      mood:
+        type: integer
+      mood_add:
+        type: integer
+      potential:
+        type: integer
+      potential_add:
+        type: integer
+      secret:
+        type: integer
+      skills:
+        type: integer
+      strength:
+        type: integer
+      strength_add:
+        type: integer
+    type: object
+  models.AuctionHistoryJson:
+    properties:
+      bid_price:
+        type: number
+      buyer:
+        description: buyer address
+        type: string
+      name:
+        type: string
+      start_at:
+        type: integer
+      tx_id:
+        description: auction tx id
+        type: string
+    type: object
+  models.AuctionJson:
+    properties:
+      claim_waiting:
+        type: integer
+      current_price:
+        description: current price
+        type: number
+      current_time:
+        type: integer
+      duration:
+        type: integer
+      end_price:
+        description: end price
+        type: number
+      history:
+        description: auction history
+        items:
+          $ref: '#/definitions/models.AuctionHistoryJson'
+        type: array
+      land_claim_reward:
+        type: number
+      last_bid_start:
+        type: integer
+      last_price:
+        type: number
+      seller:
+        description: seller address
+        type: string
+      seller_name:
+        description: seller name
+        type: string
+      start_at:
+        type: integer
+      start_price:
+        description: start price
+        type: number
+      status:
+        description: auction status
+        enum:
+        - '[cancel'
+        - finish
+        - going]
+        type: string
+      token:
+        $ref: '#/definitions/util.Token'
+      winner_address:
+        description: winner address
+        type: string
+      winner_name:
+        description: winner name
+        type: string
+    type: object
+  models.DappJson:
+    properties:
+      category:
+        type: string
+      cover:
+        type: string
+      email:
+        type: string
+      introduction:
+        type: string
+      name:
+        type: string
+      status:
+        type: string
+      url:
+        type: string
+    type: object
+  models.Drill:
+    properties:
+      chain:
+        type: string
+      class:
+        type: integer
+      create_time:
+        type: integer
+      formula_id:
+        type: integer
+      formula_index:
+        type: integer
+      grade:
+        type: integer
+      land_equip:
+        $ref: '#/definitions/models.LandEquip'
+      origin_owner:
+        type: string
+      owner:
+        type: string
+      prefer:
+        type: string
+      token_id:
+        type: string
+    type: object
+  models.Equipment:
+    properties:
+      apostle_token_id:
+        type: string
+      equipment_token_id:
+        type: string
+      level:
+        description: Level 装备的等级, 强化相关
+        type: integer
+      object:
+        type: string
+      origin_owner:
+        description: 原主人，给使徒装备后owner会变
+        type: string
+      owner:
+        type: string
+      prefer:
+        type: string
+      rarity:
+        description: Rarity 装备的品质, 木剑/钢剑/曙光女神之勇气
+        type: integer
+      slot:
+        description: 装备位置，默认1，目前只有1个位置
+        type: integer
+    type: object
+  models.EquipmentJson:
+    properties:
+      apostle:
+        $ref: '#/definitions/models.ApostleSample'
+      equipment_token_id:
+        type: string
+      level:
+        type: integer
+      object:
+        type: string
+      origin_owner:
+        type: string
+      owner:
+        type: string
+      prefer:
+        type: string
+      rarity:
+        type: integer
+    type: object
+  models.LandAuctionHistoryJson:
+    properties:
+      claim_time:
+        type: integer
+      create_tx:
+        type: string
+      final_price:
+        type: number
+      seller:
+        type: string
+      winner:
+        type: string
+    type: object
+  models.LandDataJson:
+    properties:
+      fire_rate:
+        type: integer
+      gold_rate:
+        type: integer
+      has_box:
+        type: integer
+      is_reserved:
+        type: integer
+      is_special:
+        type: integer
+      soil_rate:
+        type: integer
+      water_rate:
+        type: integer
+      wood_rate:
+        type: integer
+    type: object
+  models.LandDetailJson:
+    properties:
+      auction:
+        allOf:
+        - $ref: '#/definitions/models.AuctionJson'
+        description: auction data
+      dapp:
+        allOf:
+        - $ref: '#/definitions/models.DappJson'
+        description: dapp data
+      land_attenuation_at:
+        type: integer
+      land_data:
+        $ref: '#/definitions/models.LandJson'
+      record:
+        items:
+          $ref: '#/definitions/models.LandAuctionHistoryJson'
+        type: array
+      resource:
+        $ref: '#/definitions/models.LandDataJson'
+    type: object
+  models.LandEquip:
+    properties:
+      drill_token_id:
+        type: string
+      equip_time:
+        type: integer
+      formula_id:
+        type: integer
+      index:
+        type: integer
+      land_token_id:
+        type: string
+      owner:
+        type: string
+      owner_name:
+        type: string
+      prefer:
+        type: string
+      resource:
+        type: string
+    type: object
+  models.LandJson:
+    properties:
+      apostle_worker:
+        description: apostles who work on land
+        items:
+          $ref: '#/definitions/models.ApostleMiner'
+        type: array
+      auction_start_at:
+        type: integer
+      cover:
+        description: dapp picture on land
+        type: string
+      current_price:
+        type: number
+      district:
+        type: integer
+      drills:
+        description: Building      *Building       `json:"building"`
+        items:
+          $ref: '#/definitions/models.LandEquip'
+        type: array
+      gx:
+        description: longitude in game map
+        example: 31
+        type: integer
+      gy:
+        description: latitude in game map
+        example: 12
+        type: integer
+      has_bid:
+        description: Has somebody bid on land
+        type: boolean
+      id:
+        example: 1
+        type: integer
+      introduction:
+        description: only setting by owner
+        example: Hi
+        type: string
+      land_id:
+        type: integer
+      land_url:
+        description: dapp picture on land
+        type: string
+      lat:
+        description: latitude
+        example: -2
+        type: integer
+      lon:
+        description: longitude
+        example: -76
+        type: integer
+      member_id:
+        description: member id
+        type: integer
+      mine_last_bid:
+        description: last bid is mine
+        type: boolean
+      name:
+        description: land name
+        type: string
+      owner:
+        example: 0x9273283412f0A26C2cB99BBD874D54AD18540101
+        type: string
+      pending_tx:
+        type: string
+      resource:
+        allOf:
+        - $ref: '#/definitions/models.LandDataJson'
+        description: resource on land
+      status:
+        enum:
+        - '[fresh'
+        - onsell]
+        example: fresh
+        type: string
+      sticker:
+        type: string
+      token:
+        $ref: '#/definitions/util.Token'
+      token_id:
+        example: 2a0100010100010100000000000000010000000000000000000000000000000c
+        type: string
+      token_index:
+        description: token index
+        type: integer
+    type: object
+  models.LandRank:
+    properties:
+      count:
+        description: number of lands
+        type: integer
+      name:
+        type: string
+      owner:
+        description: owner address
+        type: string
+    type: object
+  models.NftMetaData:
+    properties:
+      attributes:
+        items:
+          additionalProperties: true
+          type: object
+        type: array
+      description:
+        type: string
+      external_url:
+        type: string
+      image:
+        type: string
+      name:
+        type: string
+    type: object
+  models.Score:
+    properties:
+      address:
+        type: string
+      score:
+        type: integer
+    type: object
+  models.SnapshotAsJson:
+    properties:
+      score:
+        items:
+          $ref: '#/definitions/models.Score'
+        type: array
+    type: object
+  models.SnapshotReq:
+    properties:
+      addresses:
+        items:
+          type: string
+        type: array
+      network:
+        type: string
+      options:
+        $ref: '#/definitions/models.SnapshotReqOptions'
+      snapshot: {}
+    type: object
+  models.SnapshotReqOptions:
+    properties:
+      apostle:
+        description: apostle vote score
+        type: integer
+      chain:
+        items:
+          type: string
+        type: array
+      element:
+        description: element vote score
+        type: number
+      kton:
+        description: kton vote score
+        type: number
+      land:
+        description: land vote score
+        type: integer
+    type: object
+  routes.GinJSON:
+    properties:
+      code:
+        type: integer
+      data: {}
+      detail:
+        type: string
+      message:
+        type: string
+    type: object
+  util.Formula:
+    properties:
+      can_disenchant:
+        type: boolean
+      class:
+        description: 阶层
+        type: integer
+      grade:
+        description: 等级
+        type: integer
+      id:
+        type: integer
+      index:
+        type: integer
+      issued:
+        type: integer
+      major_id:
+        type: integer
+      minor:
+        $ref: '#/definitions/util.FormulaMinorToken'
+      name:
+        type: string
+      objectClassExt:
+        type: integer
+      pic:
+        type: string
+      productivity:
+        items:
+          type: number
+        type: array
+      protection_period:
+        type: integer
+      sort:
+        type: integer
+    type: object
+  util.FormulaMinorToken:
+    properties:
+      LP:
+        type: number
+      element:
+        type: number
+    type: object
+  util.Token:
+    properties:
+      address:
+        example: 0xb52FBE2B925ab79a821b261C82c5Ba0814AAA5e0
+        type: string
+      decimals:
+        example: 18
+        type: integer
+      symbol:
+        example: RING
+        type: string
+    type: object
+host: backend.evolution.land
+info:
+  contact:
+    name: API Support
+    url: https://github.com/orgs/evolutionlandorg/discussions
+  license:
+    name: MIT
+  title: Evo Backend Server
+  version: "1.0"
+paths:
+  /apostle/info:
+    get:
+      parameters:
+      - description: token id
+        in: query
+        name: token_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  $ref: '#/definitions/models.ApostleJson'
+              type: object
+      summary: apostle info
+      tags:
+      - apostle
+  /apostle/list:
+    get:
+      parameters:
+      - description: page
+        in: query
+        name: page
+        type: integer
+      - description: row
+        in: query
+        name: row
+        type: integer
+      - description: network district, polygon:5,crab:3,eth:1,heco:4,tron:2
+        in: query
+        name: district
+        type: integer
+      - description: filter by apostle status, default is ””, in (onsell,fertility,rent,bid,unclaimed,my,unbind,fresh,sire,reward,canWorking,mine,listing,employment)
+        in: query
+        name: filter
+        type: string
+      - description: Whether to filter all lands. If it is empty, only filter my lands,default
+          is 'all'
+        in: query
+        name: display
+        type: string
+      - description: order field, default is 'token_index'
+        in: query
+        name: order_field
+        type: string
+      - description: order, default is 'asc'
+        in: query
+        name: order
+        type: string
+      - description: gender, male, female
+        in: query
+        name: gender
+        type: string
+      - description: search by apostle token id
+        in: query
+        name: search_id
+        type: string
+      - description: search by sire token id
+        in: query
+        name: sire_id
+        type: string
+      - description: has Guard,Saber or”
+        in: query
+        name: occupational
+        type: string
+      - description: filter by attribute
+        in: query
+        name: attribute
+        type: string
+      - description: 1 or 0
+        in: query
+        name: genesis
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  items:
+                    $ref: '#/definitions/models.ApostleJson'
+                  type: array
+              type: object
+      summary: list apostle
+      tags:
+      - apostle
+  /common/nft/metadata/{token_id}:
+    get:
+      parameters:
+      - description: token id
+        in: path
+        name: token_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: nft metadata
+          schema:
+            $ref: '#/definitions/models.NftMetaData'
+        "404":
+          description: not found
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  type: object
+              type: object
+      summary: Get Apostle,Land,Drill,Material,Equipment,MirrorKitty NFT metadata
+      tags:
+      - common
+  /common/time:
+    post:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: server time
+          schema:
+            type: number
+      summary: Time server time
+      tags:
+      - common
+  /equipment/info:
+    get:
+      parameters:
+      - description: token_id
+        in: query
+        name: token_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: ok
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  $ref: '#/definitions/models.EquipmentJson'
+              type: object
+      summary: Get equipment info
+      tags:
+      - equipment
+  /equipment/list:
+    get:
+      parameters:
+      - description: row
+        in: query
+        name: row
+        required: true
+        type: integer
+      - description: page
+        in: query
+        name: page
+        required: true
+        type: integer
+      - description: object
+        in: query
+        name: object
+        required: true
+        type: string
+      - description: order
+        in: query
+        name: order
+        required: true
+        type: string
+      responses:
+        "200":
+          description: ok
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  items:
+                    $ref: '#/definitions/models.Equipment'
+                  type: array
+              type: object
+      summary: Get equipment list
+      tags:
+      - equipment
+  /farm/apr:
+    get:
+      parameters:
+      - description: address
+        in: query
+        name: addr
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  additionalProperties:
+                    type: string
+                  type: object
+              type: object
+      summary: Get farm APR
+      tags:
+      - farm
+  /furnace/illustrated:
+    get:
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  items:
+                    $ref: '#/definitions/util.Formula'
+                  type: array
+              type: object
+      tags:
+      - furnace
+  /furnace/prop:
+    get:
+      parameters:
+      - description: token id
+        in: query
+        name: token_id
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  $ref: '#/definitions/models.Drill'
+              type: object
+      summary: Furnace Prop
+      tags:
+      - furnace
+  /furnace/props:
+    get:
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  items:
+                    $ref: '#/definitions/models.Drill'
+                  type: array
+              type: object
+      summary: List furnace props
+      tags:
+      - furnace
+  /land:
+    get:
+      parameters:
+      - description: token_id
+        in: query
+        name: token_id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  $ref: '#/definitions/models.LandDetailJson'
+              type: object
+      summary: Get land by token_id
+      tags:
+      - land
+  /land/rank:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  items:
+                    $ref: '#/definitions/models.LandRank'
+                  type: array
+              type: object
+      summary: List lands rank
+      tags:
+      - land
+  /lands:
+    get:
+      parameters:
+      - description: page
+        in: query
+        name: page
+        type: integer
+      - description: row
+        in: query
+        name: row
+        type: integer
+      - description: Whether to filter all lands. If it is empty, only filter my lands,default
+          is 'all'
+        in: query
+        name: display
+        type: string
+      - description: network district, polygon:5,crab:3,eth:1,heco:4,tron:2. default
+          is 1
+        in: query
+        name: district
+        type: integer
+      - description: filter by land status, default is ””, in (unclaimed,bid,onsale,my,other,fresh,mine,gold_rush,availableDrill,genesis,secondhand,plo)
+        in: query
+        name: filter
+        type: string
+      - description: order field, default is 'token_index'
+        in: query
+        name: order_field
+        type: string
+      - description: order, default is 'desc'
+        in: query
+        name: order
+        type: string
+      - description: search by token index
+        in: query
+        name: search_id
+        type: string
+      - description: search by owner address
+        in: query
+        name: address
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  items:
+                    $ref: '#/definitions/models.LandJson'
+                  type: array
+              type: object
+      summary: Get land list
+      tags:
+      - land
+  /snapshot:
+    post:
+      parameters:
+      - description: options
+        in: body
+        name: options
+        required: true
+        schema:
+          $ref: '#/definitions/models.SnapshotReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: success
+          schema:
+            allOf:
+            - $ref: '#/definitions/routes.GinJSON'
+            - properties:
+                data:
+                  $ref: '#/definitions/models.SnapshotAsJson'
+              type: object
+      summary: list snapshot vote score
+      tags:
+      - common
+swagger: "2.0"

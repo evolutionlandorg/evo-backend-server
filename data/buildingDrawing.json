@@ -1,0 +1,113 @@
+[
+  {
+    "index": 1,
+    "ring": "1",
+    "kton": "1",
+    "gold": "1",
+    "wood": "1",
+    "hoo": "1",
+    "fire": "1",
+    "soil": "1",
+    "upgrade_duration": [
+      86400,
+      86400,
+      86400
+    ],
+    "land_require": 1,
+    "admin_limit": 6,
+    "admin_employment_limit": 5,
+    "admin_buff": 20,
+    "location_buff": [
+      2.5,
+      5,
+      10
+    ],
+    "miner_limit": 10,
+    "talent": [
+      "strength",
+      "agile",
+      "hp"
+    ],
+    "admin_upgrade": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ]
+  },
+  {
+    "index": 2,
+    "ring": "1",
+    "kton": "1",
+    "gold": "1",
+    "wood": "1",
+    "hoo": "1",
+    "fire": "1",
+    "soil": "1",
+    "upgrade_duration": [
+      86400,
+      86400,
+      86400
+    ],
+    "land_require": 4,
+    "admin_limit": 8,
+    "admin_employment_limit": 5,
+    "admin_buff": 20,
+    "location_buff": [
+      2.5,
+      5,
+      10
+    ],
+    "talent": [
+      "strength",
+      "agile",
+      "hp"
+    ],
+    "miner_limit": 10,
+    "admin_upgrade": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ]
+  },
+  {
+    "index": 3,
+    "ring": "1",
+    "kton": "1",
+    "gold": "1",
+    "wood": "1",
+    "hoo": "1",
+    "fire": "1",
+    "soil": "1",
+    "upgrade_duration": [
+      86400,
+      86400,
+      86400
+    ],
+    "land_require": 9,
+    "admin_limit": 10,
+    "admin_employment_limit": 5,
+    "admin_buff": 20,
+    "location_buff": [
+      2.5,
+      5,
+      10
+    ],
+    "talent": [
+      "strength",
+      "agile",
+      "hp"
+    ],
+    "miner_limit": 10,
+    "admin_upgrade": [
+      50,
+      100,
+      150,
+      200,
+      250
+    ]
+  }
+]

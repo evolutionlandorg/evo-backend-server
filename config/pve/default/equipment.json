@@ -1,0 +1,151 @@
+{
+  "Shield": {
+    "1": {
+      "id": 1,
+      "rarity": "1",
+      "name": "Wooden Shield, normal",
+      "class": "Shield",
+      "materials": {
+        "MB-1": 100,
+        "MS-1": 30
+      },
+      "limit": "Guard",
+      "element": "80",
+      "success_rate": "90",
+      "buff": {
+        "def": [
+          0.1,
+          0.3,
+          0.6
+        ]
+      },
+      "enhance": {
+        "element": "400",
+        "lp": 800
+      }
+    },
+    "2": {
+      "id": 2,
+      "rarity": "2",
+      "name": "Steel Shield, rare",
+      "class": "Shield",
+      "materials": {
+        "MB-1": 200,
+        "MS-1": 60
+      },
+      "limit": "Guard",
+      "element": "160",
+      "success_rate": "60",
+      "buff": {
+        "def": [
+          0.2,
+          0.6,
+          1.2
+        ]
+      },
+      "enhance": {
+        "element": "400",
+        "lp": 800
+      }
+    },
+    "3": {
+      "id": 3,
+      "rarity": "3",
+      "name": "Aurora Shield, epic",
+      "class": "Shield",
+      "materials": {
+        "MB-2": 100,
+        "MS-2": 30
+      },
+      "limit": "Guard",
+      "element": "320",
+      "success_rate": "30",
+      "buff": {
+        "def": [
+          0.4,
+          1.2,
+          2.4
+        ]
+      },
+      "enhance": {
+        "element": "400",
+        "lp": 800
+      }
+    }
+  },
+  "Sword": {
+    "1": {
+      "id": 1,
+      "rarity": "1",
+      "name": "Wooden Sword, normal",
+      "class": "Sword",
+      "materials": {
+        "MB-1": 100,
+        "MS-1": 30
+      },
+      "limit": "Saber",
+      "element": "80",
+      "success_rate": "90",
+      "buff": {
+        "atk": [
+          1,
+          3,
+          6
+        ]
+      },
+      "enhance": {
+        "element": "400",
+        "lp": 800
+      }
+    },
+    "2": {
+      "id": 2,
+      "rarity": "2",
+      "name": "Steel Sword, rare",
+      "class": "Sword",
+      "materials": {
+        "MB-1": 200,
+        "MS-1": 60
+      },
+      "limit": "Saber",
+      "element": "160",
+      "success_rate": "60",
+      "buff": {
+        "atk": [
+          2,
+          6,
+          12
+        ]
+      },
+      "enhance": {
+        "element": "400",
+        "lp": 800
+      }
+    },
+    "3": {
+      "id": 3,
+      "rarity": "3",
+      "name": "Aurora Sword, epic",
+      "class": "Sword",
+      "materials": {
+        "MB-2": 100,
+        "MS-2": 30
+      },
+      "limit": "Saber",
+      "element": "320",
+      "success_rate": "30",
+      "buff": {
+        "atk": [
+          4,
+          12,
+          24
+        ]
+      },
+      "enhance": {
+        "element": "400",
+        "lp": 800
+      }
+    }
+  }
+}
+

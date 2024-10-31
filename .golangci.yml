@@ -1,0 +1,15 @@
+run:
+  skip-dirs:
+    - vendor
+    - src/end
+    - src/pkg
+    - pkg
+    - util/rpc
+    - util/ethclient
+  tests: false
+
+linters-settings:
+  nolintlint:
+    allow-unused: false
+
+

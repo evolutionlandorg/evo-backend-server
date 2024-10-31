@@ -1,0 +1,63 @@
+{
+  "network": [
+    "Eth",
+    "Tron",
+    "Crab",
+    "Heco",
+    "Polygon"
+  ],
+  "genesisApostlePicture": {
+    "Eth": "https://gcs.evolution.land/apostle/5927378815489954604838873424888632716091606076945161371057192714594858381.gif",
+    "Tron": "https://gcs.evolution.land/apostle/16528461204160260582338658429346143811056509458198875119786829922350577037.gif",
+    "Heco": "https://gcs.evolution.land/apostle/19004207056137499302315064189213155824989529852968571525959968328672249643009.gif",
+    "Polygon": "https://gcs.evolution.land/apostle/200621553337170292415052534308319808427114772519501130360300423249358165891.gif",
+    "Crab": "https://gcs.evolution.land/apostle/20062155333717029241505253430831980842711477251950113036030042324935816589_1.gif"
+  },
+  "storageHost": {
+    "dev": "https://gcs-staging.evolution.land/",
+    "production": "https://gcs.evolution.land/"
+  },
+  "apostlePictureServer":{
+    "dev": "http://127.0.0.1:1337",
+    "production": "http://docker:1337"
+  },
+  "apostlePictureDir": "/Users/perror/code/itering/evolutionlandorg/apostle-svg/images/apostle",
+  "contracts": [
+    "TakeBack",
+    "ClockAuction",
+    "ObjectOwnership",
+    "Bank",
+    "PointsReward",
+    "DividendPool",
+    "RolesUpdater",
+    "UserRoles",
+    "RedPacket",
+    "Apostle",
+    "ClockAuctionApostle",
+    "ApostleFertility",
+    "TokenUse",
+    "LandResource",
+    "TakeBackNFT",
+    "TokenSwap",
+    "NftBridge",
+    "CryptoKitties",
+    "PetBase",
+    "TokenBurnDrop",
+    "LuckyBag",
+    "TakeBackKton",
+    "DrillLuckyBox",
+    "DrillTakeBack",
+    "DrillBase",
+    "ItemBase",
+    "Raffle",
+    "PveTeam",
+    "MaterialTakeBack",
+    "LootBox",
+    "CraftBase",
+    "GoldRaffle",
+    "WoodRaffle",
+    "WaterRaffle",
+    "FireRaffle",
+    "SoilRaffle"
+  ]
+}
