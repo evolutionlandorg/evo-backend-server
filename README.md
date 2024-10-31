@@ -128,7 +128,7 @@ REDIS_PASSWORD=
 REDIS_DATABASE=0
 
 WEB_HOST=https://evolutionland-dev.vercel.app
-APOSTLE_SVG=http://apostle-svg # https://github.com/evolutionlandorg/apostle-svg project service address
+API_SERVER_HOST=http://apostle-svg # https://github.com/evolutionlandorg/apostle-svg project service address
 
 ETH_RPC= # eth testnet has been deprecated
 ETH_WSS_RPC= # eth testnet has been deprecated
